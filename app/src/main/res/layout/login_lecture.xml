@@ -28,7 +28,7 @@
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="Welcome Student, please sign in!"
+            android:text="Welcome Lecturer, please sign in!"
             android:textColor="#FFFFFF"
             android:textSize="23dp" />
 
@@ -42,7 +42,7 @@
             android:textSize="14dp" />
 
         <EditText
-            android:id="@+id/et_username"
+            android:id="@+id/et_username_lecture"
             android:layout_width="250dp"
             android:layout_height="48dp"
             android:layout_marginTop="50dp"
@@ -55,7 +55,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/et_password"
+            android:id="@+id/et_password_lecture"
             android:layout_width="250dp"
             android:layout_height="48dp"
             android:layout_marginTop="10dp"
@@ -68,7 +68,7 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btn_login"
+            android:id="@+id/btn_login_lecture"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -90,7 +90,7 @@
             android:layout_marginTop="25dp"/>
 
         <Button
-            android:id="@+id/btn_signup"
+            android:id="@+id/btn_signup_lecture"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
