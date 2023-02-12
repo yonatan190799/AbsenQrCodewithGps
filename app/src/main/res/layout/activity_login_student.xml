@@ -15,7 +15,7 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageView_student"
             android:layout_width="167dp"
             android:layout_height="164dp"
             android:layout_margin="45dp"
@@ -24,16 +24,16 @@
             app:srcCompat="@drawable/logo_universitas_klabat" />
 
         <TextView
-            android:id="@+id/text_welcome"
+            android:id="@+id/text_welcome_student"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="Welcome Lecturer, please sign in!"
+            android:text="Welcome Student, please sign in!"
             android:textColor="#FFFFFF"
             android:textSize="23dp" />
 
         <TextView
-            android:id="@+id/text_command"
+            android:id="@+id/text_command_student"
             android:layout_width="350dp"
             android:layout_height="40dp"
             android:layout_marginLeft="10dp"
@@ -42,7 +42,7 @@
             android:textSize="14dp" />
 
         <EditText
-            android:id="@+id/et_username_lecture"
+            android:id="@+id/et_username_student"
             android:layout_width="250dp"
             android:layout_height="48dp"
             android:layout_marginTop="50dp"
@@ -55,7 +55,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/et_password_lecture"
+            android:id="@+id/et_password_student"
             android:layout_width="250dp"
             android:layout_height="48dp"
             android:layout_marginTop="10dp"
@@ -68,7 +68,7 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btn_login_lecture"
+            android:id="@+id/btn_login_student"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -79,7 +79,7 @@
             android:textSize="17sp" />
 
         <TextView
-            android:id="@+id/text_signup"
+            android:id="@+id/text_signup_student"
             android:layout_width="145dp"
             android:layout_height="25dp"
             android:layout_gravity="center"
@@ -90,7 +90,7 @@
             android:layout_marginTop="25dp"/>
 
         <Button
-            android:id="@+id/btn_signup_lecture"
+            android:id="@+id/btn_signup_student"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -106,6 +106,5 @@
             android:layout_height="wrap_content"
             android:visibility="gone" />
     </LinearLayout>
-
 
 </RelativeLayout>

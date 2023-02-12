@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class StudentProfile extends AppCompatActivity {
+public class LoginLecturer extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.student_profile);
+        setContentView(R.layout.activity_login_lecturer);
     }
 }

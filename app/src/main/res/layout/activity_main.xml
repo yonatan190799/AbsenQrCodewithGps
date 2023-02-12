@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    tools:context=".LoginStudent"
+    tools:context=".MainActivity"
     android:background="@drawable/background_home_page">
 
     <LinearLayout
@@ -16,7 +16,7 @@
         android:layout_marginTop="50dp">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageView_homepage"
             android:layout_width="222dp"
             android:layout_height="217dp"
             android:layout_margin="10dp"
@@ -42,7 +42,7 @@
                 android:textSize="40dp" />
 
             <TextView
-                android:id="@+id/text_command"
+                android:id="@+id/text_login_as"
                 android:layout_width="350dp"
                 android:layout_height="40dp"
                 android:text="You will be logged in as??"
@@ -58,7 +58,7 @@
             android:layout_marginTop="50dp">
 
             <Button
-                android:id="@+id/btn_login_lecture"
+                android:id="@+id/btn_to_login_student"
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
